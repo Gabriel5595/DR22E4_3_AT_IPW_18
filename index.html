@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title></title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <main>
+    <form action="#" onsubmit="guardaDados()">
+      <div class="divForm">
+        <label for="nomeF">Nome</label>
+        <input type="text" name="nomeF" id="nomeF" placeholder="Digite o seu nome" required>
+      </div>
+      <div class="divForm">
+        <label for="emailF">E-mail</label>
+        <input type="email" name="emailF" id="emailF" placeholder="Digite o seu email">
+      </div>
+      <div class="divForm">
+        <label for="cpfF">Sexo</label>
+        <input type="text" name="cpfF" id="cpfF" placeholder="Digite o seu CPF" pattern="[0-9]{11,14}"
+          title="Deve ter entre 11 e 14 números">
+      </div>
+      <div class="divForm">
+        <input type="submit">
+      </div>
+
+    </form>
+  </main>
+
+  <footer>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
